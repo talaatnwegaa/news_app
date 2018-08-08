@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/list_background">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:src="@drawable/guardian_logo_1"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding">
+        <TextView
+            android:id="@+id/section_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="section_name"
+            android:paddingLeft="@dimen/padding"
+            android:textSize="15sp"
+            android:textColor="@color/date_color"
+            android:layout_marginBottom="@dimen/margin_1"
+            />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:layout_alignParentRight="true"
+            android:paddingRight="@dimen/padding"
+            android:textSize="15sp"
+            android:textColor="@color/date_color"
+            android:layout_marginBottom="@dimen/margin_1"
+            />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title of news"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="@dimen/padding"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:textColor="@color/title_color"
+        />
+    <TextView
+        android:id="@+id/fields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fields"
+        android:paddingLeft="@dimen/padding"
+        android:textSize="15sp"
+        android:textColor="@color/date_color"
+        android:layout_marginBottom="@dimen/margin_2"
+
+
+        />
+
+</LinearLayout>

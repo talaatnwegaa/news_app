@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="margin_1">10dp</dimen>
+    <dimen name="margin_2">15dp</dimen>
+    <dimen name="margin_3">300dp</dimen>
+    <dimen name="margin_4">5dp</dimen>
+    <dimen name="image_height">30dp</dimen>
+
+
+
+
+
+</resources>
